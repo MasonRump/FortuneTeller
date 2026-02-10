@@ -79,7 +79,7 @@ public class FortuneTellerFrame extends JFrame {
         add(bottomPanel, BorderLayout.SOUTH);
     }
 
-    private void intitializeFortunes() {
+    private void initializeFortunes() {
         fortunes = new ArrayList<>();
         fortunes.add("You will discover a hidden talent for juggling.");
         fortunes.add("A surprise snack will brighten your day.");
